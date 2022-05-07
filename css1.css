@@ -690,6 +690,35 @@ body {
     width: 4%;
 }
 
+/*форма_____________________________________________*/
+.text__bloc h5 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.forma {
+    width: 500px;
+    background-color: #ffffff;
+    height: 400px;
+    margin-left: 340px;
+}
+
+input {
+    width: 485px;
+    padding-left: 10px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.buttonzav {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 170px;
+    background-color: #ffa800;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
 /*Адаптив телефон_______________________________________________________________________*/
 @media (max-width: 1179px) {
     .text__bloc h4 {
