@@ -17,16 +17,20 @@
         <div class="text__bloc">
             <div class="container">
                 <h5>ПРОЙДИ БЕСПЛАТНУЮ ДИАГНОСТИКУ</h5>
-                <form class="forma" action="send.php" method="post">
-                    <input placeholder="Введите ваш эл.адрес" type="email" />
+                <form action="send.php" method="post">
                     <input
-                        placeholder="Введите ваше имя и фамилию"
                         type="text"
+                        name="fio"
+                        placeholder="Укажите ФИО"
+                        required
                     />
-                    <input placeholder="Введите ваш телефон" type="text" />
-                    <button type="submit" value="Отправить" class="buttonzav">
-                        Записаться
-                    </button>
+                    <input
+                        type="text"
+                        name="email"
+                        placeholder="Укажите e-mail"
+                        required
+                    />
+                    <input type="submit" value="Отправить" />
                 </form>
             </div>
         </div>
